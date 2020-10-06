@@ -19,7 +19,3 @@ Tabulist's size occupies 5 percent of bits length.
 800 100
 900 100
 1000 100
-1000 100
-1000 100
-100 82
-1000 100
