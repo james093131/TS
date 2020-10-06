@@ -1,8 +1,7 @@
 #define tabulistcoeff 0.05
 #include <queue> 
 #include "normal.hpp"
-//cmd執行方式 ./TS 100(bit數)  1000(iteration) 20(run) 
-void tabumake(queue<char> &tabulist,char *arr,int len,int tabusize)
+void tabumake(queue<char> &tabulist,char *arr,int len,int tabusize)//Make Tabu Table if the quantity  bigger than initial set will pop 
 {
 	if(tabulist.size()>=tabusize*len)
 	{

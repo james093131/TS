@@ -1,0 +1,10 @@
+compiler
+g++ -o TS Ts.cpp
+
+execution
+./TS Bits iteration run
+./TS 100 1000 30 
+
+設定Tabu list 大小為求取解長度的5%
+設太大不佳，因為早已遠離太久以前走過的區域，因此多了不必要的檢查
+設太小不佳，會使得跳出區域最佳解的能力下降
